@@ -1,6 +1,7 @@
 version : "3.3"
 services :
   web :
-     build : todoapp:latest
+     build : .
+     image : todoapp:latest
      ports :
          - "8000:8000"
