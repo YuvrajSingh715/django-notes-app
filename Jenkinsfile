@@ -1,5 +1,5 @@
 pipeline {
-    agent any 
+    agent {label "yuvi-server"}
     
     stages{
         stage("Clone Code"){
